@@ -354,3 +354,9 @@ input[type="submit"] {
 	}
 }
 
+/************************** CSS Ajouter ************************/
+
+#header img {
+	width: 100%;
+	height: 100%;
+}
