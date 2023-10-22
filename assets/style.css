@@ -50,6 +50,7 @@ body {
 	position: relative;
 }
 
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -356,7 +357,8 @@ input[type="submit"] {
 
 /************************** CSS Ajouter ************************/
 
-#header img {
+#header img, #about img {
 	width: 100%;
 	height: 100%;
 }
+
