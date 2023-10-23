@@ -85,8 +85,9 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 16px;
 }
-#about-me p {
+.about-me__paragraphe {
 	width: 80%;
 	font-size: 14px;
 }
@@ -97,6 +98,7 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: 1.75rem;
 }
 .gallery .nav {
 	justify-content: center;
@@ -148,6 +150,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 1.80rem;
 
 }
 .quote__author {
@@ -256,7 +259,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
@@ -362,3 +365,14 @@ input[type="submit"] {
 	height: 100%;
 }
 
+#about h3 {
+	font-size: 1rem;
+}
+
+#contact h3 {
+	font-size: 1rem;
+}
+
+.container h4 {
+	font-size: 1.35rem;
+}
