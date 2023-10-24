@@ -3,6 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "postalCode": "33200"
+        },
+        "telephone": "05 56 67 78 89"
+      }
+    </script>
     <meta
       name="description"
       content="Photographe capturant des moments précieux pour créer des souvenirs intemporels. Expert en immortalisation d'émotions, de bonheur, de tendresse et de lumière à travers des photographies professionnelles."
@@ -12,13 +27,13 @@
       content="photographe professionnel, photographies mariage, photographies concert, photographies portrait, photographies entreprise, émotions, bonheur, tendresse, souvenirs"
     />
     <meta name="author" content="Nina Carducci" />
+
     <link
       rel="preload"
-      href="./assets/bootstrap/bootstrap.css"
+      href="./assets/bootstrap/bootstrap.min.css"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
-    
     <link
       rel="preload"
       href="./assets/images/slider/slide1-500.webp"
@@ -26,7 +41,6 @@
       media="(max-width: 768px)"
     />
     <link rel="stylesheet" href="./assets/style.min.css" />
-    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -384,7 +398,9 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
-    <script src="./assets/maugallery.js"> defer</script>
+    <script src="./assets/maugallery.js">
+      defer
+    </script>
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
     <script src="./assets/scripts.js" defer></script>
   </body>
