@@ -380,3 +380,8 @@ input[type="submit"] {
 .gallery {
 	display: "none"
 }
+
+.nav-pills .nav-link.active {
+	font-weight: 900;
+	background-color: #8C750E
+}
