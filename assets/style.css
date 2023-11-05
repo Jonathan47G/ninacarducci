@@ -54,8 +54,8 @@ body {
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
-	width: 560px;
-	height: 560px;
+	width: 374px;
+	height: 329px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -208,8 +208,8 @@ body {
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
-	width: 415px;
-	height: 415px;
+	width: 374px;
+	height: 329px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
